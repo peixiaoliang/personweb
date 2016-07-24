@@ -809,7 +809,7 @@ p.copy-right a{
 		min-height: 409px;
 	}
 	.banner-info {
-		top: 36px;
+		top: 86px;
 		width: 100%;
 		left: 0%;
 		text-align: center;
@@ -922,5 +922,8 @@ p.copy-right a{
 	.footer-right input[type="submit"] {
 		float: none;
 		width:100%
+	}
+	.img{
+		display: none;
 	}
 }

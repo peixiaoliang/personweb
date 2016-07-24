@@ -319,7 +319,7 @@ a.portdown{
 	}
 /*------FOOTER STARTS---------*/
 .footer{
-	background: url(../images/footerbg.jpg);
+	background: url(../images/footer.jpg);
 	position: relative;
 	min-height: 567px;
 	background-size: cover;
@@ -356,7 +356,7 @@ a.portdown{
 	opacity:0.8;
 }
 .footer-left p{
-	color:#B5A9B7;
+	color:#F8F8F2;
 	width:80%;
 	margin:2em 0 0 0em;
 	line-height:2em;

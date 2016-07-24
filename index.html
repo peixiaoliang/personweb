@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>个人站</title>
+	<script src="./js/jquery.min.js"> </script>
+	<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	 <!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ 	 <!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- headerbg starts -->
+ <div id="top-top" class="headerbg">
+ 			<div class="headbg">
+	 <!-- header starts -->
+	   <div class="header">
+		 <!-- container starts -->
+			  <div class="container">
+				   <div class="logo">
+						<a href="#">Resume</a>
+				   </div>
+				  <!-- Navigation starts -->
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#about">ABOUT</a></li>
+						 <li><a class="scroll" href="#port">PROJECT</a></li>
+						 <li><a class="scroll" href="#skill">SKILL</a></li>
+						 <li><a class="scroll" href="#contact">CONTACT</a></li>
+					 </ul>
+				 </div>
+				  <!-- Navigation ends -->
+					<div class="clear"></div>
+			  </div>
+		 <!-- container ends -->
+			 </div>
+	   </div>
+	 <!-- header ends -->
+	 <!-- Banner starts -->
+	   <div class="banner">
+	      <div class="container">
+		     <div class="banner-info">
+			      <div class="bannerlogo">
+					  <img src="./images/qian.jpg">
+			      </div>
+			      <div class="bannerhead">
+				      <h2>My name is <span>裴效亮</span></h2>
+				      <h3>WEB 前端工程师</h3>
+				      <p>Address  山西</p>
+					  <a class="downarrow scroll" href="#about"><span> </span></a>
+			      </div>
+			 </div>
+			 <div class="clear"></div>
+		  </div>
+	  </div>
+	  <!-- Banner ends -->
+ </div>
+ <!-- Headerbg ends -->
+<!-- Content starts -->
+ <div class="content">
+	<!-- About starts -->
+	   <div id="about" class="about">
+		 <div class="container">
+			   <div class="header-section text-center">
+				  <h2><span> </span>ABOUT<span> </span></h2>
+				  </div>
+
+					 
+				<div class="about-grids">
+				   	<div class="col-md-6 about-grid">
+				   		<h4>工作经历</h4>
+				   		<p>15年到16年曾在山西艾丽莎玻璃艺术有限公司担任前端工程师<br>负责公司项目pc端和移动端前端页面开发与维护</p>
+				   	</div>
+				   	<div class="img col-md-6">
+				   		
+				   	</div>
+				   	 	<div class="img col-md-6">
+				   		
+				   	</div>
+				   	<div class="col-md-6 about-grid">
+				   		<h4>教育经历</h4>
+				   		<p>
+				   			12年到15年曾在山西财政税务专科学校就读
+				   		</p>
+				   	</div>
+				   	<div class="clearfix"> </div>
+				</div>   
+			  
+				 <a class="arrow scroll" href="#skills"><span> </span></a>
+		  </div>
+	  </div>
+<!-- About Ends -->
+	 
+	<!-- SKILLS Starts -->
+	  <div id="skills" class="skills">
+	  <div class="container">
+	     <div class="skills-grids">
+			  <div class="skill-section text-center">
+				  <h2><span> </span>SKILLS<span> </span></h2>
+			  </div>
+					  <div class="services_grids">
+						  <div id="canvas">
+								<div class="skill-grids text-center">
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-1"></div>									
+												 <h3>html</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-2"></div>									
+												 <h3>css</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-3"></div>									
+												 <h3>javascript</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-4"></div>									
+												 <h3>ajax</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-5"></div>									
+												 <h3>AngularJS</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-4">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-6"></div>									
+												 <h3>BootStrap</h3>	
+											 </div>								  
+										</div>
+										<div class="clearfix"> </div>
+								  </div>
+						   </div>
+					  </div>
+				
+					 <script type="text/javascript" src="./js/circles.js"></script>
+								 <script>
+									var colors = [
+											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'],['#181115', '#30222A'],['#181115', '#30222A']
+										];
+									for (var i = 1; i <= 6; i++) {
+										var child = document.getElementById('circles-' + i),
+											percentage = 100 - (i * 5);
+											
+										Circles.create({
+											id:         child.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage ,
+											text:       '%',
+											colors:     colors[i - 1]
+										});
+									}
+							
+					</script>
+					
+					
+			 </div>
+		 </div>
+		   <a class="down scroll" href="#port"><span> </span></a>
+	  </div>
+	  </div>
+	
+
+	<!-- SKILL END-->
+		 <div id="port" class="Portfolio">
+			  <div class="Portfolio-section text-center">
+			      <h2><span> </span>PROJECT<span> </span></h2>
+			  </div>
+			  <div class="container">
+				  <div class="portfolio-grids">
+					  <div class="portfolio-grid col-md-4">
+						 <a href="http://peixiaoliang.github.io/yingtai" target="_block"><img src="./images/yin.png"></a>
+						  <p>对银泰官网首页完美copy，主要展示一下我css+html布局能力，当然还有一点js动效</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/yingtai" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/jingdong" target="_block"><img src="./images/jing.png"></a>
+						  <p>对京东官网的练习，主要是展示一下我对布局能力的一些细节的处理，里面有很多的动效，用的原生的js代码写的</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/jingdong" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/shangdian/" target="_block"><img src="./images/shang.png"></a>
+						  <p>百度未来商店，随着时代的发展，pc端屏幕越来越大，考虑到大屏pc用户的体验，做了pc大屏响应。主要用到@media。</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/shangdian/" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/apple/" target="_block"><img src="./images/apple.png"></a>
+						  <p>苹果官网首页，用的是自己写的一个类似于bootstarp的十二栅格的框架</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/apple/" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/yuqing" target="_block"><img src="./images/yuqing.png"></a>
+						  <p>百度舆情，采用fullpages和CSS3动画的完美结合，同时做到了全屏响应</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/yuqing" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/360" target="_block"><img src="./images/360.png"></a>
+						  <p>360官网首页移动端练习，主要用到是一个百分比布局的方法，移动端屏幕大小太多。适应各种屏幕的移动端用户</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/360" target="_block"><span> </span></a>
+					  </div>
+					   <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/huaban/demo.html" target="_block"><img src="./images/hua.png"></a>
+						  <p>画板功能的实现，使用html5新元素canvas。将html5发挥到极致</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/huaban/demo.html" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://peixiaoliang.github.io/iCloud/icloud.html" target="_block"><img src="./images/icloud.png"></a>
+						  <p>icloud采用双向数据绑定，是对angularjs完美的诠释</p>
+						  <a class="rightarrow" href="http://peixiaoliang.github.io/iCloud/icloud.html" target="_block"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="http://thdc2015.duapp.com" target="_block"><img src="./images/thdc.png"></a>
+						  <p>太化地产项目的搭建，使用phpcms内容管理系统。</p>
+						  <a class="rightarrow" href="http://thdc2015.duapp.com" target="_block"><span> </span></a>
+					  </div>
+					  <div class="clear"> </div>
+				  </div>
+				  <a class="portdown scroll" href="#contact"><span> </span></a>
+				  
+			  </div>
+		 </div>
+  </div>
+  <!-- Content Ends -->
+  
+ <!-- FOOTER Starts -->
+  <div  id="contact" class="footer">
+      <div class="container">
+	  
+		   <div class="contact-section text-center">
+			  <h2><span> </span>CONTACT<span> </span></h2>
+		  </div>
+		 <div class="row">
+		 
+			 <div class="col-md-6">
+				  <div class="footer-left">
+						<div class="social-icons">
+						   <a href="#"><img src="./images/in.png"></a>
+						   <a href="#"><img src="./images/twt.png"></a>
+						   <a href="#"><img src="./images/fb.png"></a>
+					   </div>
+					   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+					   quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+					   id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+					   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+					   ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+				  </div>
+			 </div>
+			  
+			  <div class="col-md-6">
+				  <div class="footer-right">
+				 <div class="form">
+				 <form>
+					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					 <div class="clear"> </div>
+					 <input type="submit" value="SEND"> 
+				 </form>
+				 </div>
+				  </div>
+				  <div class="clear"></div>
+				  <p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+			  </div>
+		 </div>
+	 </div>
+	 <a class="up scroll" href="#top-top"><span> </span></a>
+	  
+ </div>
+ 
+ </body>
+ </html>
+ 
+   

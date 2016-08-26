@@ -777,6 +777,9 @@ p.copy-right a{
 		bottom: 1%;
 		left: 47%;
 	}
+	.img{
+		display: none;
+	}
 }
 @media (max-width:320px){
 	.container {
